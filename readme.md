@@ -1,6 +1,16 @@
-# Python Script Scheduler
+# Python Script Scheduler - 파이썬 자동 실행 스케줄러 🎯
+
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
 A web-based scheduler application for automated Python script execution.
+
+## 📸 Screenshot
+
+![Application Dashboard](screenshots/dashboard.png)
 
 ## Key Features
 
@@ -203,61 +213,6 @@ You can create a `.env` file to set the following environment variables:
 - tail -f ~/workspace/autorun/logs/error.log
 
 ---
-
-## Git Usage Guide
-
-### Initial Setup
-Set up user information when using Git for the first time:
-```bash
-# Set Git user email
-git config --global user.email "hyun.lim@okkorea.net"
-
-# Set Git user name
-git config --global user.name "lhg96"
-```
----
-### Initialize Git Repository
-Initialize Git repository when starting a new project:
-```bash
-# 1. Initialize Git repository
-git init
-
-# 2. Create README.md file (if needed)
-echo "# autorun" >> README.md
-
-# 3. Add files to staging area
-git add .                # Add all files
-git add README.md       # Add specific file only
-
-# 4. Commit changes
-git commit -m "first commit"
-
-# 5. Set default branch to main
-git branch -M main
-
-# 6. Connect to GitHub remote repository
-git remote add origin https://github.com/lhg96/autorun.git
-
-# 7. Push to GitHub
-git push -u origin main
-```
----
-### Update Files in Git Repository
-Update files in Git repository whenever the project is updated:
-```bash
-# 1. Check status of changed files
-git status
-
-# 2. Stage all changed files
-git add .
-
-# 3. Commit changes
-git commit -m "Descriptive message about changes"
-
-# 4. Push to GitHub
-git push
-```
----
 ### Download Files from Git Repository
 Use when downloading files from GitHub:
 ```bash
@@ -266,3 +221,18 @@ git clone https://github.com/lhg96/autorun.git
 # 2. Pull files from remote repository
 git pull origin main
 ```
+
+
+## 📞 문의하기
+
+[![Email](https://img.shields.io/badge/Email-hyun.lim@okkorea.net-red)](mailto:hyun.lim@okkorea.net)
+[![Website](https://img.shields.io/badge/Website-okkorea.net-blue)](https://www.okkorea.net)
+
+개발 관련 컨설팅 및 외주 받습니다.
+
+프로젝트 관리자 연락처:
+- name: 임현근 (Hyun-Keun Lim)
+- Email: hyun.lim@okkorea.net
+- homepage: https://www.okkorea.net
+
+---
